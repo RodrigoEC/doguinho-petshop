@@ -34,7 +34,7 @@
     </a>
     <ul class="nav justify-content-end">
       <li class="nav-item">
-        <a class="nav-link active" href="./clientes.html">Clientes</a>
+        <a class="nav-link active" href="clientes.html">Clientes</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Pets</a>
@@ -52,14 +52,16 @@
       <label>Nome</label>
       <input type="text" class="form-control" data-nome placeholder="Digite seu nome aqui" />
     </div>
-    <a href="clientes.html"><button type="submit" class="btn btn-primary" >Enviar</button></a>
+    <div data-sucesso></div>
+    <button type="submit" class="btn btn-primary" ><a href="./clientes.html"></a>Enviar</button>
+
     </div>
   </form>
 
   <body>
     <script src="./api/cliente.js"></script>
-    <script src="./cadastro-clientes.js"></script>
-    <script src="./validaCPF.js"></script>
+    <script src="validaCPF.js"></script>
+    <script src="edita-cliente.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
