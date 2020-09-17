@@ -1,4 +1,4 @@
-# Doguinho PetShop
+# :dog: Doguinho PetShop
 
 Esse repositório foi desenvolvido durante o curso de Fetch API que eu fiz na Alura cursos online. O Doguinho-petshop é simula um site de petshop onde é possível cadastrar o nome e o CPF de um cliente que deseja consumir os serviços do nosso petshop.
 
